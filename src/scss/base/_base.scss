@@ -1,0 +1,21 @@
+@use '../utilities/variables.scss';
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    color: var(--text-color);
+    background-color: black;
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    color: lightskyblue;
+}
+h2{
+    margin-bottom: 25px;
+}

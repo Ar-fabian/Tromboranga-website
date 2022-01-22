@@ -1,0 +1,24 @@
+.hero{
+    background: black;
+    padding-bottom: 80px;
+    &__banner{
+        grid-column: 1 / 4;
+        width: 100%;
+    }
+    &__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    &__img{
+        width: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+        cursor: pointer;
+        transition: transform 1s;
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.footer{
+    grid-column: 1/4;
+    height: 370px;
+    background-color: #000814;
+    text-align: center;
+    &__map{
+        border-radius: 10px;
+    }
+    &__about{
+        padding: 0 20px;
+    }
+    &__logo{
+        width: 180px;
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+}
